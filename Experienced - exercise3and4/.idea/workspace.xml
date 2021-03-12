@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0f88641d-e0ec-4202-a183-84957d65fbfe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/exercise3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/pages/result_page.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/pages/result_page.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/search.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/step_definitions/google_steps.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/google_steps.rb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1WlfaSkZu4Jp8CaR8De2KiFo5gi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="Cucumber.@IQR-303: Convert 10 inches to meters (1)">
+    <configuration name="@IQR-303: Convert 10 inches to meters (1)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+      <module name="exercise3" />
+      <predefined_log_file enabled="true" id="RUBY_CUCUMBER" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/features/search.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Convert 10 inches to meters$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="@IQR-303: Convert 10 inches to meters (3)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+      <module name="exercise3" />
+      <predefined_log_file enabled="true" id="RUBY_CUCUMBER" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/features/search.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Convert 10 inches to meters$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="@IQR-303: Convert 10 inches to meters (4)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+      <module name="exercise3" />
+      <predefined_log_file enabled="true" id="RUBY_CUCUMBER" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/features/search.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Convert 10 inches to meters$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="@IQR-303: Convert 10 inches to meters (5)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+      <module name="exercise3" />
+      <predefined_log_file enabled="true" id="RUBY_CUCUMBER" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/features/search.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Convert 10 inches to meters$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="@IQR-303: Convert 10 inches to meters" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+      <module name="exercise3" />
+      <predefined_log_file enabled="true" id="RUBY_CUCUMBER" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/features/search.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Convert 10 inches to meters$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber.@IQR-303: Convert 10 inches to meters (1)" />
+        <item itemvalue="Cucumber.@IQR-303: Convert 10 inches to meters (5)" />
+        <item itemvalue="Cucumber.@IQR-303: Convert 10 inches to meters" />
+        <item itemvalue="Cucumber.@IQR-303: Convert 10 inches to meters (4)" />
+        <item itemvalue="Cucumber.@IQR-303: Convert 10 inches to meters (3)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0f88641d-e0ec-4202-a183-84957d65fbfe" name="Default Changelist" comment="" />
+      <created>1579729164858</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579729164858</updated>
+      <workItem from="1579729166199" duration="6735000" />
+      <workItem from="1579857476026" duration="589000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="360" y="199" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579730973203">
+      <screen x="0" y="23" width="1792" height="1020" />
+    </state>
+    <state x="360" y="199" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1020@0.23.1792.1020" timestamp="1579730973203" />
+    <state width="679" height="330" key="GridCell.Tab.0.bottom" timestamp="1579857461660">
+      <screen x="0" y="23" width="1792" height="1022" />
+    </state>
+    <state width="679" height="330" key="GridCell.Tab.0.bottom/0.23.1792.1020@0.23.1792.1020" timestamp="1579730768163" />
+    <state width="679" height="330" key="GridCell.Tab.0.bottom/0.23.1792.1022@0.23.1792.1022" timestamp="1579857461660" />
+    <state width="765" height="267" key="GridCell.Tab.0.bottom/0.23.1792.1024@0.23.1792.1024" timestamp="1579775678397" />
+    <state width="679" height="330" key="GridCell.Tab.0.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1579773005188" />
+    <state width="679" height="267" key="GridCell.Tab.0.bottom/0.23.1792.1028@0.23.1792.1028" timestamp="1579730622941" />
+    <state width="679" height="330" key="GridCell.Tab.0.bottom/0.23.1792.1030@0.23.1792.1030" timestamp="1579730195628" />
+    <state width="679" height="330" key="GridCell.Tab.0.center" timestamp="1579857461659">
+      <screen x="0" y="23" width="1792" height="1022" />
+    </state>
+    <state width="679" height="330" key="GridCell.Tab.0.center/0.23.1792.1020@0.23.1792.1020" timestamp="1579730768162" />
+    <state width="679" height="330" key="GridCell.Tab.0.center/0.23.1792.1022@0.23.1792.1022" timestamp="1579857461659" />
+    <state width="765" height="267" key="GridCell.Tab.0.center/0.23.1792.1024@0.23.1792.1024" timestamp="1579775678396" />
+    <state width="679" height="330" key="GridCell.Tab.0.center/0.23.1792.1026@0.23.1792.1026" timestamp="1579773005187" />
+    <state width="679" height="267" key="GridCell.Tab.0.center/0.23.1792.1028@0.23.1792.1028" timestamp="1579730622940" />
+    <state width="679" height="330" key="GridCell.Tab.0.center/0.23.1792.1030@0.23.1792.1030" timestamp="1579730195627" />
+    <state width="679" height="330" key="GridCell.Tab.0.left" timestamp="1579857461659">
+      <screen x="0" y="23" width="1792" height="1022" />
+    </state>
+    <state width="679" height="330" key="GridCell.Tab.0.left/0.23.1792.1020@0.23.1792.1020" timestamp="1579730768162" />
+    <state width="679" height="330" key="GridCell.Tab.0.left/0.23.1792.1022@0.23.1792.1022" timestamp="1579857461659" />
+    <state width="765" height="267" key="GridCell.Tab.0.left/0.23.1792.1024@0.23.1792.1024" timestamp="1579775678396" />
+    <state width="679" height="330" key="GridCell.Tab.0.left/0.23.1792.1026@0.23.1792.1026" timestamp="1579773005186" />
+    <state width="679" height="267" key="GridCell.Tab.0.left/0.23.1792.1028@0.23.1792.1028" timestamp="1579730622940" />
+    <state width="679" height="330" key="GridCell.Tab.0.left/0.23.1792.1030@0.23.1792.1030" timestamp="1579730195626" />
+    <state width="679" height="330" key="GridCell.Tab.0.right" timestamp="1579857461660">
+      <screen x="0" y="23" width="1792" height="1022" />
+    </state>
+    <state width="679" height="330" key="GridCell.Tab.0.right/0.23.1792.1020@0.23.1792.1020" timestamp="1579730768162" />
+    <state width="679" height="330" key="GridCell.Tab.0.right/0.23.1792.1022@0.23.1792.1022" timestamp="1579857461660" />
+    <state width="765" height="267" key="GridCell.Tab.0.right/0.23.1792.1024@0.23.1792.1024" timestamp="1579775678396" />
+    <state width="679" height="330" key="GridCell.Tab.0.right/0.23.1792.1026@0.23.1792.1026" timestamp="1579773005187" />
+    <state width="679" height="267" key="GridCell.Tab.0.right/0.23.1792.1028@0.23.1792.1028" timestamp="1579730622941" />
+    <state width="679" height="330" key="GridCell.Tab.0.right/0.23.1792.1030@0.23.1792.1030" timestamp="1579730195627" />
+    <state width="679" height="330" key="GridCell.Tab.1.bottom" timestamp="1579857461661">
+      <screen x="0" y="23" width="1792" height="1022" />
+    </state>
+    <state width="679" height="330" key="GridCell.Tab.1.bottom/0.23.1792.1020@0.23.1792.1020" timestamp="1579730768044" />
+    <state width="679" height="330" key="GridCell.Tab.1.bottom/0.23.1792.1022@0.23.1792.1022" timestamp="1579857461661" />
+    <state width="679" height="330" key="GridCell.Tab.1.bottom/0.23.1792.1024@0.23.1792.1024" timestamp="1579773068042" />
+    <state width="679" height="330" key="GridCell.Tab.1.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1579773003498" />
+    <state width="679" height="330" key="GridCell.Tab.1.bottom/0.23.1792.1028@0.23.1792.1028" timestamp="1579730476374" />
+    <state width="679" height="330" key="GridCell.Tab.1.bottom/0.23.1792.1030@0.23.1792.1030" timestamp="1579730195629" />
+    <state width="679" height="330" key="GridCell.Tab.1.center" timestamp="1579857461660">
+      <screen x="0" y="23" width="1792" height="1022" />
+    </state>
+    <state width="679" height="330" key="GridCell.Tab.1.center/0.23.1792.1020@0.23.1792.1020" timestamp="1579730768044" />
+    <state width="679" height="330" key="GridCell.Tab.1.center/0.23.1792.1022@0.23.1792.1022" timestamp="1579857461660" />
+    <state width="679" height="330" key="GridCell.Tab.1.center/0.23.1792.1024@0.23.1792.1024" timestamp="1579773068042" />
+    <state width="679" height="330" key="GridCell.Tab.1.center/0.23.1792.1026@0.23.1792.1026" timestamp="1579773003498" />
+    <state width="679" height="330" key="GridCell.Tab.1.center/0.23.1792.1028@0.23.1792.1028" timestamp="1579730476373" />
+    <state width="679" height="330" key="GridCell.Tab.1.center/0.23.1792.1030@0.23.1792.1030" timestamp="1579730195628" />
+    <state width="679" height="330" key="GridCell.Tab.1.left" timestamp="1579857461660">
+      <screen x="0" y="23" width="1792" height="1022" />
+    </state>
+    <state width="679" height="330" key="GridCell.Tab.1.left/0.23.1792.1020@0.23.1792.1020" timestamp="1579730768043" />
+    <state width="679" height="330" key="GridCell.Tab.1.left/0.23.1792.1022@0.23.1792.1022" timestamp="1579857461660" />
+    <state width="679" height="330" key="GridCell.Tab.1.left/0.23.1792.1024@0.23.1792.1024" timestamp="1579773068041" />
+    <state width="679" height="330" key="GridCell.Tab.1.left/0.23.1792.1026@0.23.1792.1026" timestamp="1579773003498" />
+    <state width="679" height="330" key="GridCell.Tab.1.left/0.23.1792.1028@0.23.1792.1028" timestamp="1579730476373" />
+    <state width="679" height="330" key="GridCell.Tab.1.left/0.23.1792.1030@0.23.1792.1030" timestamp="1579730195628" />
+    <state width="679" height="330" key="GridCell.Tab.1.right" timestamp="1579857461660">
+      <screen x="0" y="23" width="1792" height="1022" />
+    </state>
+    <state width="679" height="330" key="GridCell.Tab.1.right/0.23.1792.1020@0.23.1792.1020" timestamp="1579730768044" />
+    <state width="679" height="330" key="GridCell.Tab.1.right/0.23.1792.1022@0.23.1792.1022" timestamp="1579857461660" />
+    <state width="679" height="330" key="GridCell.Tab.1.right/0.23.1792.1024@0.23.1792.1024" timestamp="1579773068042" />
+    <state width="679" height="330" key="GridCell.Tab.1.right/0.23.1792.1026@0.23.1792.1026" timestamp="1579773003498" />
+    <state width="679" height="330" key="GridCell.Tab.1.right/0.23.1792.1028@0.23.1792.1028" timestamp="1579730476373" />
+    <state width="679" height="330" key="GridCell.Tab.1.right/0.23.1792.1030@0.23.1792.1030" timestamp="1579730195629" />
+    <state width="679" height="330" key="GridCell.Tab.2.bottom" timestamp="1579857461661">
+      <screen x="0" y="23" width="1792" height="1022" />
+    </state>
+    <state width="679" height="330" key="GridCell.Tab.2.bottom/0.23.1792.1020@0.23.1792.1020" timestamp="1579730768045" />
+    <state width="679" height="330" key="GridCell.Tab.2.bottom/0.23.1792.1022@0.23.1792.1022" timestamp="1579857461661" />
+    <state width="679" height="330" key="GridCell.Tab.2.bottom/0.23.1792.1024@0.23.1792.1024" timestamp="1579773068043" />
+    <state width="679" height="330" key="GridCell.Tab.2.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1579772932729" />
+    <state width="679" height="330" key="GridCell.Tab.2.bottom/0.23.1792.1028@0.23.1792.1028" timestamp="1579730476374" />
+    <state width="679" height="330" key="GridCell.Tab.2.bottom/0.23.1792.1030@0.23.1792.1030" timestamp="1579730195630" />
+    <state width="679" height="330" key="GridCell.Tab.2.center" timestamp="1579857461661">
+      <screen x="0" y="23" width="1792" height="1022" />
+    </state>
+    <state width="679" height="330" key="GridCell.Tab.2.center/0.23.1792.1020@0.23.1792.1020" timestamp="1579730768044" />
+    <state width="679" height="330" key="GridCell.Tab.2.center/0.23.1792.1022@0.23.1792.1022" timestamp="1579857461661" />
+    <state width="679" height="330" key="GridCell.Tab.2.center/0.23.1792.1024@0.23.1792.1024" timestamp="1579773068042" />
+    <state width="679" height="330" key="GridCell.Tab.2.center/0.23.1792.1026@0.23.1792.1026" timestamp="1579772932729" />
+    <state width="679" height="330" key="GridCell.Tab.2.center/0.23.1792.1028@0.23.1792.1028" timestamp="1579730476374" />
+    <state width="679" height="330" key="GridCell.Tab.2.center/0.23.1792.1030@0.23.1792.1030" timestamp="1579730195629" />
+    <state width="679" height="330" key="GridCell.Tab.2.left" timestamp="1579857461661">
+      <screen x="0" y="23" width="1792" height="1022" />
+    </state>
+    <state width="679" height="330" key="GridCell.Tab.2.left/0.23.1792.1020@0.23.1792.1020" timestamp="1579730768044" />
+    <state width="679" height="330" key="GridCell.Tab.2.left/0.23.1792.1022@0.23.1792.1022" timestamp="1579857461661" />
+    <state width="679" height="330" key="GridCell.Tab.2.left/0.23.1792.1024@0.23.1792.1024" timestamp="1579773068042" />
+    <state width="679" height="330" key="GridCell.Tab.2.left/0.23.1792.1026@0.23.1792.1026" timestamp="1579772932728" />
+    <state width="679" height="330" key="GridCell.Tab.2.left/0.23.1792.1028@0.23.1792.1028" timestamp="1579730476374" />
+    <state width="679" height="330" key="GridCell.Tab.2.left/0.23.1792.1030@0.23.1792.1030" timestamp="1579730195629" />
+    <state width="679" height="330" key="GridCell.Tab.2.right" timestamp="1579857461661">
+      <screen x="0" y="23" width="1792" height="1022" />
+    </state>
+    <state width="679" height="330" key="GridCell.Tab.2.right/0.23.1792.1020@0.23.1792.1020" timestamp="1579730768045" />
+    <state width="679" height="330" key="GridCell.Tab.2.right/0.23.1792.1022@0.23.1792.1022" timestamp="1579857461661" />
+    <state width="679" height="330" key="GridCell.Tab.2.right/0.23.1792.1024@0.23.1792.1024" timestamp="1579773068043" />
+    <state width="679" height="330" key="GridCell.Tab.2.right/0.23.1792.1026@0.23.1792.1026" timestamp="1579772932729" />
+    <state width="679" height="330" key="GridCell.Tab.2.right/0.23.1792.1028@0.23.1792.1028" timestamp="1579730476374" />
+    <state width="679" height="330" key="GridCell.Tab.2.right/0.23.1792.1030@0.23.1792.1030" timestamp="1579730195629" />
+    <state x="721" y="235" key="NewModule_or_Project.wizard" timestamp="1579856517885">
+      <screen x="0" y="23" width="1792" height="1022" />
+    </state>
+    <state x="721" y="235" key="NewModule_or_Project.wizard/0.23.1792.1022@0.23.1792.1022" timestamp="1579856517885" />
+    <state x="384" y="118" key="SettingsEditor" timestamp="1579729318976">
+      <screen x="0" y="23" width="1792" height="1028" />
+    </state>
+    <state x="384" y="118" key="SettingsEditor/0.23.1792.1028@0.23.1792.1028" timestamp="1579729318976" />
+    <state x="561" y="261" width="670" height="676" key="search.everywhere.popup" timestamp="1579729922345">
+      <screen x="0" y="23" width="1792" height="1030" />
+    </state>
+    <state x="561" y="261" width="670" height="676" key="search.everywhere.popup/0.23.1792.1030@0.23.1792.1030" timestamp="1579729922345" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/exercise3@_IQR_301__Normal_search__1_.rcov" NAME="@IQR-301: Normal search (1) Coverage Results" MODIFIED="1579730768010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="exercise3" />
+    <SUITE FILE_PATH="coverage/exercise3@_IQR_303__Convert_10_inches_to_meters__2_.rcov" NAME="@IQR-303: Convert 10 inches to meters (2) Coverage Results" MODIFIED="1579771477115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="exercise3" />
+    <SUITE FILE_PATH="coverage/exercise3@search_feature.rcov" NAME="search.feature Coverage Results" MODIFIED="1579770465436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="exercise3" />
+    <SUITE FILE_PATH="coverage/exercise3@_IQR_303__Convert_10_inches_to_meters__4_.rcov" NAME="@IQR-303: Convert 10 inches to meters (4) Coverage Results" MODIFIED="1579772992935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="exercise3" />
+    <SUITE FILE_PATH="coverage/exercise3@_IQR_301__Normal_search.rcov" NAME="@IQR-301: Normal search Coverage Results" MODIFIED="1579729758945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="exercise3" />
+    <SUITE FILE_PATH="coverage/exercise3@_IQR_303__Convert_10_inches_to_meters.rcov" NAME="@IQR-303: Convert 10 inches to meters Coverage Results" MODIFIED="1579773068026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="exercise3" />
+    <SUITE FILE_PATH="coverage/exercise3@_IQR_303__Convert_10_inches_to_meters__1_.rcov" NAME="@IQR-303: Convert 10 inches to meters (1) Coverage Results" MODIFIED="1579775678387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="exercise3" />
+    <SUITE FILE_PATH="coverage/exercise3@_IQR_303__Convert_10_inches_to_meters__5_.rcov" NAME="@IQR-303: Convert 10 inches to meters (5) Coverage Results" MODIFIED="1579773136655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="exercise3" />
+    <SUITE FILE_PATH="coverage/exercise3@_IQR_303__Convert_10_inches_to_meters__3_.rcov" NAME="@IQR-303: Convert 10 inches to meters (3) Coverage Results" MODIFIED="1579771567206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="exercise3" />
+  </component>
+</project>
