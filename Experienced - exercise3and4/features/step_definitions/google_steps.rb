@@ -10,6 +10,10 @@ Given 'I have selected the list of eu member countries page' do
   current_page.go_to_eu_member_countries_in_brief
 end
 
+When 'I select {string} as target unit' do |measurement|
+  current_page.select_measurement(measurement)
+end
+
 Then('I see over {int} results') do |expected_results|
   raise 'Step only valid on result page' unless current_page == google.result_page
 

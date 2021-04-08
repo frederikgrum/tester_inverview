@@ -8,9 +8,9 @@ class HomePage < BasePage
   end
 
   def search_for(term)
-    cookie_modal_accept_button.click
-    browser.form.text_field.set term
-    browser.form.submit
+    cookie_modal_accept_button.click if cookie_modal_accept_button.present?
+    google_search_field.set term
+    google_search_button.click
     next_page google.result_page
   end
 
@@ -22,10 +22,18 @@ class HomePage < BasePage
   private
 
   def cookie_modal_accept_button
-    browser.element(class: %w[NJfJb hide-focus-ring aID8W Sr5CLc]).element(class: 'irPjbc').iframe.form
+    browser.element(class: 'KxvlWc').element(class: %w[J2ipb HOq4He]).element(class: 'VDity').element(id: 'zV9nZe')
   end
 
   def example_list_element
     browser.element(class: 'examples')
+  end
+
+  def google_search_field
+    browser.element(class: 'RNNXgb').text_field
+  end
+
+  def google_search_button
+    browser.element(class: 'tfB0Bf').element(class: 'gNO89b')
   end
 end

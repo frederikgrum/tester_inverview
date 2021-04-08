@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/tester_inverview.iml" filepath="$PROJECT_DIR$/.idea/tester_inverview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tester_inverview.iml" filepath="$PROJECT_DIR$/tester_inverview.iml" />
     </modules>
   </component>
 </project>
