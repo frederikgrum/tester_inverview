@@ -1,8 +1,8 @@
 module Exercise1and2
   class Password
 
-    def initialize(string)
-      @valid = string.length >= 6 && string.length < 15
+    def initialize(password)
+      @valid = password.length >= 6 && password.length < 15
     end
 
     def valid?
