@@ -19,17 +19,9 @@ class ResultPage < BasePage
     card_section[/(?<=Showing results for ).*/]
   end
 
-  def go_to_eu_member_countries_in_brief
-    eu_member_countries_in_brief_link.click
-  end
-
-  def find_country(expected_country)
-    country_list.country_items.detect { |country| expected_country == country.country_id }
-  end
-
   # This is an example of how to create a list
-  def country_list
-    CountryList.new(country_list_element)
+  def example_list
+    ListExample.new(example_list_element)
   end
 
   private
@@ -38,11 +30,8 @@ class ResultPage < BasePage
     browser.element(class: 'card-section').text
   end
 
-  def eu_member_countries_in_brief_link
-    browser.element(id: 'search').elements(class: 'hlcw0c')[1].element(class: 'yuRUbf').a
+  def example_list_element
+    browser.element(class: 'examples')
   end
 
-  def country_list_element
-    browser.element(class: 'countries_thumbs')
-  end
 end

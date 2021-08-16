@@ -6,10 +6,6 @@ When('I (have )search(ed) for {string}') do |search_term|
   current_page.search_for search_term
 end
 
-Given 'I have selected the list of eu member countries page' do
-  current_page.go_to_eu_member_countries_in_brief
-end
-
 Then('I see over {int} results') do |expected_results|
   raise 'Step only valid on result page' unless current_page == google.result_page
 
