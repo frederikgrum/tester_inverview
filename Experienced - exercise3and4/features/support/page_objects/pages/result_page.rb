@@ -32,6 +32,18 @@ class ResultPage < BasePage
     CountryList.new(country_list_element)
   end
 
+  def select_to_measurement(measurement)
+    to_measurement_dropdown_option(measurement).click
+  end
+
+  def to_measurement_box_text_field_text
+    to_measurement_box.text_field.value
+  end
+
+  def from_measurement_box_text_field_text
+    from_measurement_box.text_field.value
+  end
+
   private
 
   def card_section
@@ -39,10 +51,26 @@ class ResultPage < BasePage
   end
 
   def eu_member_countries_in_brief_link
-    browser.element(id: 'search').elements(class: 'hlcw0c')[1].element(class: 'yuRUbf').a
+    browser.element(id: 'search').elements(class: 'hlcw0c')[0].element(class: 'yuRUbf').a
   end
 
   def country_list_element
     browser.element(class: 'countries_thumbs')
+  end
+
+  def measurement_box
+    browser.element(class: 'CR33Se')
+  end
+
+  def from_measurement_box
+    measurement_box.element(id: 'HG5Seb')
+  end
+
+  def to_measurement_box
+    measurement_box.element(id: 'NotFQb')
+  end
+
+  def to_measurement_dropdown_option(measurement)
+    to_measurement_box.select.option(text: measurement)
   end
 end
