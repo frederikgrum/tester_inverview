@@ -1,8 +1,8 @@
 module Exercise1and2
   class Password
 
-    def initialize(string)
-      @valid = string.length >= 6 && string.length < 15
+    def initialize(password)
+      @valid = password.match?(/^(?=.*[A-Z])(?=.*\d).{7,28}$/)
     end
 
     def valid?

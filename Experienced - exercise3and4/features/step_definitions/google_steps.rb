@@ -27,3 +27,12 @@ Then('I have the option to search for {string} instead') do |expected_search_ter
 
   expect(current_page.search_instead_for).to eq expected_search_term
 end
+
+When('I select {string} as target unit') do |measurement|
+  current_page.select_to_measurement(measurement)
+end
+
+Then('I am shown that {string} inches is equal to {string} meter') do |from_measurement, to_measurement|
+  expect(current_page.from_measurement_box_text_field_text).to eq from_measurement
+  expect(current_page.to_measurement_box_text_field_text).to eq to_measurement
+end

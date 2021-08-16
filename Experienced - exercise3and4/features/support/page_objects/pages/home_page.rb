@@ -10,6 +10,7 @@ class HomePage < BasePage
   def search_for(term)
     cookie_modal_accept_button.click if cookie_modal_accept_button.present?
     google_search_field.set term
+    google_image.click
     google_search_button.click
     next_page google.result_page
   end
@@ -22,7 +23,7 @@ class HomePage < BasePage
   private
 
   def cookie_modal_accept_button
-    browser.element(class: 'KxvlWc').element(class: %w[J2ipb HOq4He]).element(class: 'VDity').element(id: 'zV9nZe')
+    browser.element(class: 'KxvlWc').element(class: %w[J2ipb HOq4He]).element(class: 'VDity').element(id: 'L2AGLb')
   end
 
   def example_list_element
@@ -34,6 +35,10 @@ class HomePage < BasePage
   end
 
   def google_search_button
-    browser.element(class: 'tfB0Bf').element(class: 'gNO89b')
+    browser.element(class: 'FPdoLc').element(class: 'gNO89b')
+  end
+
+  def google_image
+    browser.element(class: 'k1zIA')
   end
 end
