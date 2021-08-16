@@ -15,19 +15,10 @@ class HomePage < BasePage
     next_page google.result_page
   end
 
-  # This is an example of how to create a list
-  def example_list
-    CountryList.new(example_list_element)
-  end
-
   private
 
   def cookie_modal_accept_button
     browser.element(class: 'KxvlWc').element(class: %w[J2ipb HOq4He]).element(class: 'VDity').element(id: 'L2AGLb')
-  end
-
-  def example_list_element
-    browser.element(class: 'examples')
   end
 
   def google_search_field

@@ -1,12 +1,13 @@
 Feature: EU Countries
 
+  #TODO: Go to the eu member countries page through google search
+  #TODO: Verify the dates Denmark and Bulgaria joined the EU
   Scenario Outline: Verify joined date
     Given I am on the Google Home Page
     And I have searched for 'EU member countries in brief'
-    And I have selected the list of eu member countries page
-    Then Verify '<countries>' is joined 'EU member country: since <date>'
+    #TODO: Complete the scenario
     Examples:
-      | countries | date           |
-      | bulgaria  | 1 January 2007 |
-      | denmark   | 1 January 1973 |
+      | countries | date |
+      |           |      |
+      |           |      |
 

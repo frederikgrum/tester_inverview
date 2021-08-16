@@ -6,10 +6,6 @@ When('I (have )search(ed) for {string}') do |search_term|
   current_page.search_for search_term
 end
 
-Given 'I have selected the list of eu member countries page' do
-  current_page.go_to_eu_member_countries_in_brief
-end
-
 Then('I see over {int} results') do |expected_results|
   raise 'Step only valid on result page' unless current_page == google.result_page
 
@@ -26,13 +22,4 @@ Then('I have the option to search for {string} instead') do |expected_search_ter
   raise 'Step only valid on result page' unless current_page == google.result_page
 
   expect(current_page.search_instead_for).to eq expected_search_term
-end
-
-When('I select {string} as target unit') do |measurement|
-  current_page.select_to_measurement(measurement)
-end
-
-Then('I am shown that {string} inches is equal to {string} meter') do |from_measurement, to_measurement|
-  expect(current_page.from_measurement_box_text_field_text).to eq from_measurement
-  expect(current_page.to_measurement_box_text_field_text).to eq to_measurement
 end
